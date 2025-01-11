@@ -159,3 +159,18 @@ Final Notes
 Ensure that you replace yourusername with your actual Docker Hub username in the Dockerfile and Kubernetes manifest.
 Make sure to test the deployment in a Kubernetes cluster to verify that everything works as expected.
 Follow best practices for containerization and documentation to ensure code quality and maintainability.
+
+
+Step 1: Set Up Directory Structure
+Create the following directory structure for your project:
+
+.
+├── app
+│   ├── Dockerfile
+│   └── app.py
+└── terraform
+    ├── main.tf
+    ├── variables.tf
+    ├── terraform.tfvars
+    └── outputs.tf
+
