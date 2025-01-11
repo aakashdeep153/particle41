@@ -161,6 +161,8 @@ Make sure to test the deployment in a Kubernetes cluster to verify that everythi
 Follow best practices for containerization and documentation to ensure code quality and maintainability.
 
 
+Sure! Below is a step-by-step guide to creating an AWS EKS cluster using Terraform, along with the necessary directory structure and files. This will include creating a VPC with 2 public and 2 private subnets, deploying the EKS cluster in the private subnets, and pushing everything to a public Git repository.
+
 Step 1: Set Up Directory Structure
 Create the following directory structure for your project:
 
