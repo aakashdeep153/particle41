@@ -64,8 +64,11 @@ Log in to Docker Hub:
 docker login
 Push the image to Docker Hub:
 docker push yourusername/simpletimeservice:latest
+
 Step 4: Create Kubernetes Manifest
+
 Create a file named microservice.yml:
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -97,14 +100,18 @@ spec:
     targetPort: 5000
   selector:
     app: simpletimeservice
+
 Step 5: Push Code to a Public Git Repository
+
 Initialize a git repository:
+
 git init
 git add .
 git commit -m "Initial commit of SimpleTimeService"
 Push to a public repository (e.g., GitHub):
 git remote add origin https://github.com/yourusername/SimpleTimeService.git
 git push -u origin master
+
 Step 6: Documentation
 Create a README.md file with deployment instructions:
 # SimpleTimeService
