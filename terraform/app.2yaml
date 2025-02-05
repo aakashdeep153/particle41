@@ -1,0 +1,6 @@
+ApiVersion:
+kind:
+name:
+metadata:
+spec:
+  replica: 3
